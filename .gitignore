@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Secretos / entorno (el .env real NUNCA se versiona)
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Sistema operativo
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# IDE
+.idea/
