@@ -1,0 +1,4 @@
+# Dependencias del pipeline
+requests          # cliente HTTP para pegarle a la API de Binance
+psycopg[binary]   # driver de PostgreSQL para Python (psycopg 3)
+python-dotenv     # carga la configuración desde el archivo .env
